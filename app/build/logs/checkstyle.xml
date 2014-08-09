@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="1.5.4">
+<file name="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/AcmeDemoBundle.php">
+ <error line="7" column="1" severity="error" message="Missing class doc comment" source="Symfony2.Commenting.ClassComment.Missing"/>
+</file>
+<file name="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Command/HelloWorldCommand.php">
+ <error line="16" column="1" severity="error" message="Content of the @author tag must be in the form &quot;Display Name &lt;username@example.com&gt;&quot;" source="Symfony2.Commenting.ClassComment.InvalidAuthors"/>
+</file>
+<file name="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Controller/WelcomeController.php">
+ <error line="7" column="1" severity="error" message="Missing class doc comment" source="Symfony2.Commenting.ClassComment.Missing"/>
+ <error line="9" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+</file>
+<file name="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Controller/SecuredController.php">
+ <error line="13" column="1" severity="error" message="There should always be a description, followed by a blank line, before the tags of a class comment." source="Symfony2.Commenting.ClassComment.SpacingBeforeTags"/>
+ <error line="17" column="5" severity="error" message="Doc comment for &quot;$request&quot; missing" source="Symfony2.Commenting.FunctionComment.MissingParamTag"/>
+ <error line="20" column="1" severity="error" message="Missing @return tag in function comment" source="Symfony2.Commenting.FunctionComment.MissingReturn"/>
+ <error line="51" column="5" severity="error" message="Doc comment for &quot;$name&quot; missing" source="Symfony2.Commenting.FunctionComment.MissingParamTag"/>
+ <error line="55" column="1" severity="error" message="Missing @return tag in function comment" source="Symfony2.Commenting.FunctionComment.MissingReturn"/>
+ <error line="61" column="5" severity="error" message="Doc comment for &quot;$name&quot; missing" source="Symfony2.Commenting.FunctionComment.MissingParamTag"/>
+ <error line="65" column="1" severity="error" message="Missing @return tag in function comment" source="Symfony2.Commenting.FunctionComment.MissingReturn"/>
+</file>
+<file name="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Controller/DemoController.php">
+ <error line="14" column="1" severity="error" message="Missing class doc comment" source="Symfony2.Commenting.ClassComment.Missing"/>
+ <error line="19" column="1" severity="error" message="Missing @return tag in function comment" source="Symfony2.Commenting.FunctionComment.MissingReturn"/>
+ <error line="25" column="5" severity="error" message="Doc comment for &quot;$name&quot; missing" source="Symfony2.Commenting.FunctionComment.MissingParamTag"/>
+ <error line="28" column="1" severity="error" message="Missing @return tag in function comment" source="Symfony2.Commenting.FunctionComment.MissingReturn"/>
+ <error line="34" column="5" severity="error" message="Doc comment for &quot;$request&quot; missing" source="Symfony2.Commenting.FunctionComment.MissingParamTag"/>
+ <error line="37" column="1" severity="error" message="Missing @return tag in function comment" source="Symfony2.Commenting.FunctionComment.MissingReturn"/>
+</file>
+<file name="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/DependencyInjection/AcmeDemoExtension.php">
+ <error line="10" column="1" severity="error" message="Missing class doc comment" source="Symfony2.Commenting.ClassComment.Missing"/>
+ <error line="12" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+ <error line="18" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+</file>
+<file name="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Form/ContactType.php">
+ <error line="8" column="1" severity="error" message="Missing class doc comment" source="Symfony2.Commenting.ClassComment.Missing"/>
+ <error line="10" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+ <error line="16" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+</file>
+<file name="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Twig/Extension/DemoExtension.php">
+ <error line="7" column="1" severity="error" message="Missing class doc comment" source="Symfony2.Commenting.ClassComment.Missing"/>
+ <error line="12" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+ <error line="17" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+ <error line="32" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+</file>
+<file name="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php">
+ <error line="7" column="1" severity="error" message="Missing class doc comment" source="Symfony2.Commenting.ClassComment.Missing"/>
+ <error line="9" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+ <error line="18" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+</file>
+<file name="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/EventListener/ControllerListener.php">
+ <error line="9" column="1" severity="error" message="Missing class doc comment" source="Symfony2.Commenting.ClassComment.Missing"/>
+ <error line="13" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+ <error line="18" column="12" severity="error" message="Missing function doc comment" source="Symfony2.Commenting.FunctionComment.Missing"/>
+</file>
+</checkstyle>

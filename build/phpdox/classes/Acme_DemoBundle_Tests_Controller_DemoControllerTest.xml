@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Acme\DemoBundle\Tests\Controller\DemoControllerTest" namespace="Acme\DemoBundle\Tests\Controller" name="DemoControllerTest" abstract="false" final="false" start="7" end="45">
+  <file path="src/Acme/DemoBundle/Tests/Controller" file="DemoControllerTest.php" realpath="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" size="1422" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="a477f9414f43bd2880bc32923898fcadb1f53b88"/>
+  <extends full="Symfony\Bundle\FrameworkBundle\Test\WebTestCase" namespace="Symfony\Bundle\FrameworkBundle\Test" name="WebTestCase"/>
+  <method name="testIndex" start="9" end="16" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="testSecureSection" start="18" end="44" abstract="false" final="false" static="false" visibility="public">
+    <inline>
+      <comment value="goes to the secure page" line="22"/>
+      <comment value="redirects to the login page" line="25"/>
+      <comment value="submits the login form" line="28"/>
+      <comment value="redirect to the original page (but now authenticated)" line="32"/>
+      <comment value="check that the page is the right one" line="35"/>
+      <comment value="click on the secure link" line="38"/>
+      <comment value="check that the page is the right one" line="42"/>
+    </inline>
+  </method>
+</class>

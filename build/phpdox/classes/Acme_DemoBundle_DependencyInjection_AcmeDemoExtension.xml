@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Acme\DemoBundle\DependencyInjection\AcmeDemoExtension" namespace="Acme\DemoBundle\DependencyInjection" name="AcmeDemoExtension" abstract="false" final="false" start="10" end="22">
+  <file path="src/Acme/DemoBundle/DependencyInjection" file="AcmeDemoExtension.php" realpath="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/DependencyInjection/AcmeDemoExtension.php" size="623" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="a23fe8996b393a33e670f2acc2933c64f7361655"/>
+  <extends full="Symfony\Component\HttpKernel\DependencyInjection\Extension" namespace="Symfony\Component\HttpKernel\DependencyInjection" name="Extension"/>
+  <method name="load" start="12" end="16" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="configs" byreference="false" type="array"/>
+    <parameter name="container" byreference="false" type="object">
+      <type full="Symfony\Component\DependencyInjection\ContainerBuilder" namespace="Symfony\Component\DependencyInjection" name="ContainerBuilder"/>
+    </parameter>
+  </method>
+  <method name="getAlias" start="18" end="21" abstract="false" final="false" static="false" visibility="public"/>
+</class>

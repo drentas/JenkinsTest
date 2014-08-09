@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Acme\DemoBundle\Controller\WelcomeController" namespace="Acme\DemoBundle\Controller" name="WelcomeController" abstract="false" final="false" start="7" end="19">
+  <file path="src/Acme/DemoBundle/Controller" file="WelcomeController.php" realpath="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Controller/WelcomeController.php" size="442" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="8dcdfb5bed2ab06bd9db55d1a7e42ad3480a1e0f"/>
+  <extends full="Symfony\Bundle\FrameworkBundle\Controller\Controller" namespace="Symfony\Bundle\FrameworkBundle\Controller" name="Controller"/>
+  <method name="indexAction" start="9" end="18" abstract="false" final="false" static="false" visibility="public">
+    <inline>
+      <comment value="The action's view can be rendered using render() method" line="11"/>
+      <comment xmlns="http://xml.phpdox.net/src#" value="or @Template annotation as demonstrated in DemoController." line="12"/>
+    </inline>
+  </method>
+</class>

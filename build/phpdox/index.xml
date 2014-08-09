@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src#" basedir="/var/www/SymfonyNetBeans/src">
+  <namespace name="Acme\DemoBundle">
+    <class name="AcmeDemoBundle" src="Acme/DemoBundle/AcmeDemoBundle.php" xml="classes/Acme_DemoBundle_AcmeDemoBundle.xml"/>
+  </namespace>
+  <namespace name="Acme\DemoBundle\Command">
+    <class name="HelloWorldCommand" src="Acme/DemoBundle/Command/HelloWorldCommand.php" description="Hello World command for demo purposes." xml="classes/Acme_DemoBundle_Command_HelloWorldCommand.xml"/>
+  </namespace>
+  <namespace name="Acme\DemoBundle\Controller">
+    <class name="WelcomeController" src="Acme/DemoBundle/Controller/WelcomeController.php" xml="classes/Acme_DemoBundle_Controller_WelcomeController.xml"/>
+    <class name="SecuredController" src="Acme/DemoBundle/Controller/SecuredController.php" xml="classes/Acme_DemoBundle_Controller_SecuredController.xml"/>
+    <class name="DemoController" src="Acme/DemoBundle/Controller/DemoController.php" xml="classes/Acme_DemoBundle_Controller_DemoController.xml"/>
+  </namespace>
+  <namespace name="Acme\DemoBundle\DependencyInjection">
+    <class name="AcmeDemoExtension" src="Acme/DemoBundle/DependencyInjection/AcmeDemoExtension.php" xml="classes/Acme_DemoBundle_DependencyInjection_AcmeDemoExtension.xml"/>
+  </namespace>
+  <namespace name="Acme\DemoBundle\Form">
+    <class name="ContactType" src="Acme/DemoBundle/Form/ContactType.php" xml="classes/Acme_DemoBundle_Form_ContactType.xml"/>
+  </namespace>
+  <namespace name="Acme\DemoBundle\Twig\Extension">
+    <class name="DemoExtension" src="Acme/DemoBundle/Twig/Extension/DemoExtension.php" xml="classes/Acme_DemoBundle_Twig_Extension_DemoExtension.xml"/>
+  </namespace>
+  <namespace name="Acme\DemoBundle\Tests\Controller">
+    <class name="DemoControllerTest" src="Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" xml="classes/Acme_DemoBundle_Tests_Controller_DemoControllerTest.xml"/>
+  </namespace>
+  <namespace name="Acme\DemoBundle\EventListener">
+    <class name="ControllerListener" src="Acme/DemoBundle/EventListener/ControllerListener.php" xml="classes/Acme_DemoBundle_EventListener_ControllerListener.xml"/>
+  </namespace>
+</index>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Acme\DemoBundle\EventListener\ControllerListener" namespace="Acme\DemoBundle\EventListener" name="ControllerListener" abstract="false" final="false" start="9" end="24">
+  <file path="src/Acme/DemoBundle/EventListener" file="ControllerListener.php" realpath="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/EventListener/ControllerListener.php" size="623" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="c554416627d5365ee44481f9396ed76e05b77d0a"/>
+  <member name="extension" type="{unknown}" visibility="protected" line="11"/>
+  <constructor name="__construct" start="13" end="16" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="extension" byreference="false" type="object">
+      <type full="Acme\DemoBundle\Twig\Extension\DemoExtension" namespace="Acme\DemoBundle\Twig\Extension" name="DemoExtension"/>
+    </parameter>
+  </constructor>
+  <method name="onKernelController" start="18" end="23" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="event" byreference="false" type="object">
+      <type full="Symfony\Component\HttpKernel\Event\FilterControllerEvent" namespace="Symfony\Component\HttpKernel\Event" name="FilterControllerEvent"/>
+    </parameter>
+  </method>
+</class>

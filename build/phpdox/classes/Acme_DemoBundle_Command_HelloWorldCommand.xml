@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Acme\DemoBundle\Command\HelloWorldCommand" namespace="Acme\DemoBundle\Command" name="HelloWorldCommand" abstract="false" final="false" start="18" end="48">
+  <file path="src/Acme/DemoBundle/Command" file="HelloWorldCommand.php" realpath="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Command/HelloWorldCommand.php" size="1296" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="211820ba0f99613f6bceb7965df9c5172e867ee0"/>
+  <docblock>
+    <description compact="Hello World command for demo purposes.">You could also extend from Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand
+to get access to the container via $this-&gt;getContainer().</description>
+    <author value="Tobias Schultze &lt;http://tobion.de&gt;"/>
+  </docblock>
+  <extends full="Symfony\Component\Console\Command\Command" namespace="Symfony\Component\Console\Command" name="Command"/>
+  <method name="configure" start="23" end="39" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description compact="{@inheritdoc}"/>
+    </docblock>
+  </method>
+  <method name="execute" start="44" end="47" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description compact="{@inheritdoc}"/>
+    </docblock>
+    <parameter name="input" byreference="false" type="object">
+      <type full="Symfony\Component\Console\Input\InputInterface" namespace="Symfony\Component\Console\Input" name="InputInterface"/>
+    </parameter>
+    <parameter name="output" byreference="false" type="object">
+      <type full="Symfony\Component\Console\Output\OutputInterface" namespace="Symfony\Component\Console\Output" name="OutputInterface"/>
+    </parameter>
+  </method>
+</class>

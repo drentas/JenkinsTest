@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Acme\DemoBundle\Twig\Extension\DemoExtension" namespace="Acme\DemoBundle\Twig\Extension" name="DemoExtension" abstract="false" final="false" start="7" end="81">
+  <file path="src/Acme/DemoBundle/Twig/Extension" file="DemoExtension.php" realpath="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Twig/Extension/DemoExtension.php" size="2142" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="6eabfdf2b27e010cf6d49fd256e7fb6e18664907"/>
+  <extends full="Twig_Extension" namespace="" name="Twig_Extension"/>
+  <member name="loader" type="{unknown}" visibility="protected" line="9"/>
+  <member name="controller" type="{unknown}" visibility="protected" line="10"/>
+  <constructor name="__construct" start="12" end="15" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="loader" byreference="false" type="object">
+      <type full="Twig_LoaderInterface" namespace="" name="Twig_LoaderInterface"/>
+    </parameter>
+  </constructor>
+  <method name="setController" start="17" end="20" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="controller" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getFunctions" start="25" end="30" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="{@inheritdoc}"/>
+    </docblock>
+  </method>
+  <method name="getCode" start="32" end="50" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="template" byreference="false" type="{unknown}"/>
+    <inline>
+      <comment value="highlight_string highlights php code only if '&lt;?php' tag is present." line="34"/>
+      <comment value="remove the code block" line="40"/>
+    </inline>
+  </method>
+  <method name="getControllerCode" start="52" end="65" abstract="false" final="false" static="false" visibility="protected"/>
+  <method name="getTemplateCode" start="67" end="70" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="template" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getName" start="77" end="80" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Returns the name of the extension."/>
+      <return description="The extension name" type="string"/>
+    </docblock>
+  </method>
+</class>

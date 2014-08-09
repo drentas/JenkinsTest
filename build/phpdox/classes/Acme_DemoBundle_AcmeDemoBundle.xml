@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Acme\DemoBundle\AcmeDemoBundle" namespace="Acme\DemoBundle" name="AcmeDemoBundle" abstract="false" final="false" start="7" end="9">
+  <file path="src/Acme/DemoBundle" file="AcmeDemoBundle.php" realpath="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/AcmeDemoBundle.php" size="124" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="4f09a8776359df5c0c4e7be438ff2db529c12d53"/>
+  <extends full="Symfony\Component\HttpKernel\Bundle\Bundle" namespace="Symfony\Component\HttpKernel\Bundle" name="Bundle"/>
+</class>

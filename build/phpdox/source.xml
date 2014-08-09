@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source xmlns="http://xml.phpdox.net/src#">
+  <dir name="/var/www/SymfonyNetBeans/src">
+    <dir name="Acme">
+      <dir name="DemoBundle">
+        <file name="AcmeDemoBundle.php" size="124" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="4f09a8776359df5c0c4e7be438ff2db529c12d53"/>
+        <dir name="Command">
+          <file name="HelloWorldCommand.php" size="1296" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="211820ba0f99613f6bceb7965df9c5172e867ee0"/>
+        </dir>
+        <dir name="Controller">
+          <file name="WelcomeController.php" size="442" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="8dcdfb5bed2ab06bd9db55d1a7e42ad3480a1e0f"/>
+          <file name="SecuredController.php" size="1901" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="b9a5e8b9b2b44a158f867701e06a712f53888183"/>
+          <file name="DemoController.php" size="1435" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="5fe34d69ccaf75cbbd19c3dbe23968d8abf90fa5"/>
+        </dir>
+        <dir name="DependencyInjection">
+          <file name="AcmeDemoExtension.php" size="623" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="a23fe8996b393a33e670f2acc2933c64f7361655"/>
+        </dir>
+        <dir name="Form">
+          <file name="ContactType.php" size="419" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="e8f353cf8d82d3237d18bd1a4e82be21a02d6c32"/>
+        </dir>
+        <dir name="Twig">
+          <dir name="Extension">
+            <file name="DemoExtension.php" size="2142" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="6eabfdf2b27e010cf6d49fd256e7fb6e18664907"/>
+          </dir>
+        </dir>
+        <dir name="Tests">
+          <dir name="Controller">
+            <file name="DemoControllerTest.php" size="1422" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="a477f9414f43bd2880bc32923898fcadb1f53b88"/>
+          </dir>
+        </dir>
+        <dir name="EventListener">
+          <file name="ControllerListener.php" size="623" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="c554416627d5365ee44481f9396ed76e05b77d0a"/>
+        </dir>
+      </dir>
+    </dir>
+  </dir>
+</source>

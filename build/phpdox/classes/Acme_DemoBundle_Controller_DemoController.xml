@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Acme\DemoBundle\Controller\DemoController" namespace="Acme\DemoBundle\Controller" name="DemoController" abstract="false" final="false" start="14" end="56">
+  <file path="src/Acme/DemoBundle/Controller" file="DemoController.php" realpath="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Controller/DemoController.php" size="1435" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="5fe34d69ccaf75cbbd19c3dbe23968d8abf90fa5"/>
+  <extends full="Symfony\Bundle\FrameworkBundle\Controller\Controller" namespace="Symfony\Bundle\FrameworkBundle\Controller" name="Controller"/>
+  <method name="indexAction" start="20" end="23" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <route value="(&quot;/&quot;, name=&quot;_demo&quot;)"/>
+      <template value="()"/>
+    </docblock>
+  </method>
+  <method name="helloAction" start="29" end="32" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <route value="(&quot;/hello/{name}&quot;, name=&quot;_demo_hello&quot;)"/>
+      <template value="()"/>
+    </docblock>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="contactAction" start="38" end="55" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <route value="(&quot;/contact&quot;, name=&quot;_demo_contact&quot;)"/>
+      <template value="()"/>
+    </docblock>
+    <parameter name="request" byreference="false" type="object">
+      <type full="Symfony\Component\HttpFoundation\Request" namespace="Symfony\Component\HttpFoundation" name="Request"/>
+    </parameter>
+    <inline>
+      <comment value=".. setup a message and send it" line="46"/>
+      <comment value="http://symfony.com/doc/current/cookbook/email.html" line="47"/>
+    </inline>
+  </method>
+</class>

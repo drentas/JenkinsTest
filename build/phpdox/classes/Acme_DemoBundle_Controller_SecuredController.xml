@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Acme\DemoBundle\Controller\SecuredController" namespace="Acme\DemoBundle\Controller" name="SecuredController" abstract="false" final="false" start="15" end="70">
+  <file path="src/Acme/DemoBundle/Controller" file="SecuredController.php" realpath="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Controller/SecuredController.php" size="1901" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="b9a5e8b9b2b44a158f867701e06a712f53888183"/>
+  <docblock>
+    <description/>
+    <route value="(&quot;/demo/secured&quot;)"/>
+  </docblock>
+  <extends full="Symfony\Bundle\FrameworkBundle\Controller\Controller" namespace="Symfony\Bundle\FrameworkBundle\Controller" name="Controller"/>
+  <method name="loginAction" start="21" end="33" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <route value="(&quot;/login&quot;, name=&quot;_demo_login&quot;)"/>
+      <template value="()"/>
+    </docblock>
+    <parameter name="request" byreference="false" type="object">
+      <type full="Symfony\Component\HttpFoundation\Request" namespace="Symfony\Component\HttpFoundation" name="Request"/>
+    </parameter>
+  </method>
+  <method name="securityCheckAction" start="38" end="41" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <route value="(&quot;/login_check&quot;, name=&quot;_demo_security_check&quot;)"/>
+    </docblock>
+  </method>
+  <method name="logoutAction" start="46" end="49" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <route value="(&quot;/logout&quot;, name=&quot;_demo_logout&quot;)"/>
+    </docblock>
+  </method>
+  <method name="helloAction" start="56" end="59" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <route value="(&quot;/hello&quot;, defaults={&quot;name&quot;=&quot;World&quot;}),"/>
+      <route value="(&quot;/hello/{name}&quot;, name=&quot;_demo_secured_hello&quot;)"/>
+      <template value="()"/>
+    </docblock>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="helloadminAction" start="66" end="69" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <route value="(&quot;/hello/admin/{name}&quot;, name=&quot;_demo_secured_hello_admin&quot;)"/>
+      <security value="(&quot;is_granted('ROLE_ADMIN')&quot;)"/>
+      <template value="()"/>
+    </docblock>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+  </method>
+</class>

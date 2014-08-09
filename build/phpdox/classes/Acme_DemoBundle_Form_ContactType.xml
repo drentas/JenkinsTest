@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src#" full="Acme\DemoBundle\Form\ContactType" namespace="Acme\DemoBundle\Form" name="ContactType" abstract="false" final="false" start="8" end="20">
+  <file path="src/Acme/DemoBundle/Form" file="ContactType.php" realpath="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Form/ContactType.php" size="419" time="2014-08-09T22:21:35+02:00" unixtime="1407615695" sha1="e8f353cf8d82d3237d18bd1a4e82be21a02d6c32"/>
+  <extends full="Symfony\Component\Form\AbstractType" namespace="Symfony\Component\Form" name="AbstractType"/>
+  <method name="buildForm" start="10" end="14" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="builder" byreference="false" type="object">
+      <type full="Symfony\Component\Form\FormBuilderInterface" namespace="Symfony\Component\Form" name="FormBuilderInterface"/>
+    </parameter>
+    <parameter name="options" byreference="false" type="array"/>
+  </method>
+  <method name="getName" start="16" end="19" abstract="false" final="false" static="false" visibility="public"/>
+</class>
