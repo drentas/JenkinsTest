@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Project Test Suite" tests="2" assertions="3" failures="0" errors="0" time="1.386387">
-    <testsuite name="Acme\DemoBundle\Tests\Controller\DemoControllerTest" file="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" tests="2" assertions="3" failures="0" errors="0" time="1.386387">
-      <testcase name="testIndex" class="Acme\DemoBundle\Tests\Controller\DemoControllerTest" file="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" line="9" assertions="1" time="1.125535"/>
-      <testcase name="testSecureSection" class="Acme\DemoBundle\Tests\Controller\DemoControllerTest" file="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" line="18" assertions="2" time="0.260852"/>
+  <testsuite name="Project Test Suite" tests="2" assertions="3" failures="0" errors="0" time="1.779948">
+    <testsuite name="Acme\DemoBundle\Tests\Controller\DemoControllerTest" file="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" tests="2" assertions="3" failures="0" errors="0" time="1.779948">
+      <testcase name="testIndex" class="Acme\DemoBundle\Tests\Controller\DemoControllerTest" file="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" line="9" assertions="1" time="1.569587"/>
+      <testcase name="testSecureSection" class="Acme\DemoBundle\Tests\Controller\DemoControllerTest" file="/var/www/SymfonyNetBeans/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" line="18" assertions="2" time="0.210361"/>
     </testsuite>
   </testsuite>
 </testsuites>
