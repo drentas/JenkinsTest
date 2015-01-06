@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="Lazyprojet" default="build">
+<project name="JenkinsProject" default="build">
   <property name="workspace" value="${basedir}" />
   <property name="sourcedir" value="${basedir}/src" />
   <property name="builddir" value="${workspace}/app/build" />
 
   <target name="build"
-  depends="prepare,vendors,parameters,lint,phploc,pdepend,phpcpd,phpmd-ci,phpcs-ci,phpdox,phpunit,phpcb"/>
+  depends="prepare,parameters,lint,phploc,pdepend,phpcpd,phpmd-ci,phpcs-ci,phpdox,phpunit,phpcb"/>
 
   <target name="build-parallel" depends="prepare,lint,tools-parallel,phpunit,phpcb"/>
 
@@ -71,7 +71,8 @@
     </exec>
   </target>
 
-  <target name="phpmd" description="Perform project mess detection using PHPMD and print human readable output. Intended for usage on the command line before committing.">
+  <target name="phpmd" description="Perform project mess detection using PHPMD and print human readable output. 
+                Intended for usage on the command line before committing.">
     <exec executable="phpmd">
       <arg path="${basedir}/src" />
       <arg value="text" />
@@ -79,7 +80,8 @@
     </exec>
   </target>
 
-  <target name="phpmd-ci" description="Perform project mess detection using PHPMD creating a log file for the continuous integration server">
+  <target name="phpmd-ci" description="Perform project mess detection 
+            using PHPMD creating a log file for the continuous integration server">
     <exec executable="phpmd">
       <arg path="${sourcedir}" />
       <arg value="xml" />
@@ -89,14 +91,17 @@
     </exec>
   </target>
 
-  <target name="phpcs" description="Find coding standard violations using PHP_CodeSniffer and print human readable output. Intended for usage on the command line before committing.">
+  <target name="phpcs" description="Find coding standard violations 
+    using PHP_CodeSniffer and print human readable output. 
+    Intended for usage on the command line before committing.">
     <exec executable="phpcs">
       <arg value="--standard=Symfony2" />
       <arg path="${sourcedir}" />
     </exec>
   </target>
 
-  <target name="phpcs-ci" description="Find coding standard violations using PHP_CodeSniffer creating a log file for the continuous integration server">
+  <target name="phpcs-ci" description="Find coding standard violations using PHP_CodeSniffer
+        creating a log file for the continuous integration server">
     <exec executable="phpcs" output="/dev/null">
       <arg value="--report=checkstyle" />
       <arg value="--report-file=${builddir}/logs/checkstyle.xml" />
